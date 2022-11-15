@@ -6,7 +6,7 @@ Interactive Rating Component
   <img src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/dm3s8oqtz0mwcaygqjhy.jpg" />
   <img src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/azuwlqhmt3ty3h0cfnnr.jpg" />
 </h1>
-<h1 align='center'><a href="">See the site</a></h1>
+<h1 align='center'><a href="https://ewrtonl.github.io/interactive-rating-component/">See the site</a></h1>
 
 ## 📕 About
 
