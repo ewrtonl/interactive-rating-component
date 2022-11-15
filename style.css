@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: hsl(213, 19%, 18%);
+  color: white;
+
+  width: min(37rem, 90%);
+  margin-top: -5rem;
+
+  padding: 3.5rem;
+
+  border-radius: 3rem;
+}
+
+/* START BOX */
+
+.start {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+img {
+  width: 1.5rem;
+}
+
+.star {
+  width: 4.5rem;
+  display: flex;
+  align-items: center;
+
+  background-color: rgba(92, 95, 99, 0.1);
+  padding: 1.5rem;
+
+  border-radius: 50%;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input,
+button {
+  font-family: 'Overpass', sans-serif;
+}
+
+input {
+  background-color: rgba(92, 95, 99, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+
+  font-size: 1.4rem;
+  padding: 1.5rem 2rem;
+  border: none;
+
+  border-radius: 50%;
+  cursor: pointer;
+
+  transition: background 0.2s;
+}
+
+input:focus {
+  background-color: rgb(255, 255, 255, 0.4);
+}
+
+input:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+button {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  padding: 1.5rem;
+
+  border-radius: 7rem;
+  cursor: pointer;
+
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+
+/* END BOX */
+
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.end img {
+  width: 14rem;
+}
+
+.end h1 {
+  font-size: 2.6rem;
+}
+
+.end .star-text {
+  color: hsl(25, 97%, 53%);
+  background-color: rgba(92, 95, 99, 0.1);
+  padding: 0.5rem 1.5rem;
+
+  border-radius: 4rem;
+}
+
+.end p {
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.hide {
+  display: none;
+}
